@@ -2,6 +2,11 @@
 
 A WordPress plugin that syncs a Substack RSS feed into your site on a daily cron, with first-class support for canonical URLs and bulk-rollback tagging.
 
+⚠️ IMPORTANT DISCLAIMER
+NO SUPPORT IS PROVIDED FOR THIS PLUGIN. USE AT YOUR OWN RISK.
+
+This plugin is provided "as is" without warranty of any kind. The author is not responsible for any issues, data loss, or damage that may occur from using this plugin. If it lights your computer on fire, it's not the author's fault.
+
 Fork of [Christopher S. Penn's `substack-wp-sync`](https://github.com/cspenn/substack-wp-sync) v1.0.2 (Apache 2.0). Significant changes are listed below.
 
 ## What it does
