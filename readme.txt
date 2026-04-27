@@ -10,6 +10,11 @@ License URI: https://www.apache.org/licenses/LICENSE-2.0
 
 Sync a Substack RSS feed into WordPress on a daily cron. Sets canonical URLs back to Substack and tags every import for bulk rollback.
 
+⚠️ IMPORTANT DISCLAIMER
+NO SUPPORT IS PROVIDED FOR THIS PLUGIN. USE AT YOUR OWN RISK.
+
+This plugin is provided "as is" without warranty of any kind. The author is not responsible for any issues, data loss, or damage that may occur from using this plugin. If it lights your computer on fire, it's not the author's fault.
+
 == Description ==
 
 HW Substack Sync pulls posts from a Substack RSS feed into WordPress on a daily schedule. Imported posts get a `rank_math_canonical_url` postmeta pointing back to the original Substack permalink (so Rank Math outputs the correct canonical link), plus an `_substack_import_batch` postmeta for bulk rollback. Images are sideloaded into the media library, and post content is rewritten to reference the local copies.
